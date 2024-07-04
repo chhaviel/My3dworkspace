@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My3dworkspace</title>
+    <link rel="stylesheet" href="3d.css">
+</head>
+<body>
+   
+        
+    <div id="first">
+    <iframe id="we" src='https://my.spline.design/untitled-66ad6d617accedff5ee485374e254f29/' frameborder='30%' width='1200px' height='500px'></iframe>
+    </div>
+    <div class="parallex"></div>
+    <div class="txt">
+        <h1 class="up">YOU DEMAND WE CREATE</h1>
+        <h2 class="txtdown">We create 3d models and objects to make your websites standout from others</h2>
+        <h2 class="txtdon">You are just one LINK behind !!!! </h2>
+        <h1 class="exl">HURRY NOW !</h1>
+        <img class="img1" src="https://cdn.pixabay.com/photo/2022/06/08/00/55/strawberries-7249448_640.jpg">
+    </div>
+
+    <div class="models" id="page1">
+        <div class="model1">
+            <img class="i1" src="https://i.pinimg.com/564x/1e/e2/da/1ee2da4d3659e52f22cce1097a13f275.jpg" width="200px">
+        </div>
+
+        <div class="model2">
+            <img class="i1" src="https://i.pinimg.com/564x/a9/04/5d/a9045d9925d2dc08b9248c706b896c73.jpg" width="200px" height="300px">
+        </div>
+
+        <div class="model3">
+            <img class="i1" src="https://i.pinimg.com/236x/f3/96/3e/f3963eeae01cd104d497e42767026c51.jpg" width="200px" height="300px">
+        </div>
+    </div>
+
+    <div class="nav">
+        <a id ="pg1" href="#first">HOME</a>
+        <a id ="pg1" href="#form">REGISTER</a>
+        <a id ="pg1" href="#page1">DESIGNS</a>
+        
+    </div>
+    <h3>hover the white space </h3>
+
+    <div id="form">
+        <form name="myForm" onsubmit="return validateForm()" method="post">
+            <label id="i1">ORGANIZATION NAME</label>
+            <input type="text" name ="aname"><br><br>
+            <label id="i2">E-MAIL ADDRESS</label>
+            <input type="text" name ="bname"><br><br>
+            <Label id="i3">PHONE NUMBER</Label>
+            <input type="text" name ="fname"><br><br>
+            <textarea id = "fm">  describe - models you want to use in your webpage</textarea><br><br>
+            <button>Register</button>
+           
+        </form>
+    </div>
+    <script>
+        function validateForm() {
+  let x = document.forms["myForm"]["fname"].value;
+  if (x == "") {
+    alert("All fields must be filled out");
+    return false;
+  }
+}
+    </script>
+    
+</body>
+</html>
